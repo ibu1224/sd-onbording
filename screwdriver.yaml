@@ -1,0 +1,7 @@
+shared:
+  image: node12
+jobs:
+  build1:
+    requires: ~commit
+    steps:
+      - echo "hoge"
